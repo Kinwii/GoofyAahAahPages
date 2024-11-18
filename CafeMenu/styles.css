@@ -95,7 +95,7 @@ a:active {
     color: rgb(107, 27, 27);
 }
 
-.established.address {
+.established, .address {
     margin-bottom: 5px;
 }
 
