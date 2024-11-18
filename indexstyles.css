@@ -6,6 +6,7 @@ ul {
 h1 {
     margin-top: 0px;
     font-size: 40px;
+    margin-bottom: 0px;
 }
 
 
@@ -33,6 +34,10 @@ p {
     font-size: 25px;
 }
 
+a {
+    color: black;
+}
+
 a:visited {
     color: black;
 }
@@ -45,7 +50,6 @@ a:active {
     color: rgb(157, 2, 2);
 }
 
-
 hr {
     max-width: 420px;
     margin-left: 0px;
@@ -53,6 +57,11 @@ hr {
 
 .plist {
     font-weight: bold;
+}
+
+.plistnolink {
+    font-weight: bold;
+    font-style: italic;
 }
 
 /* FOOTER */
