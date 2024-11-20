@@ -1,19 +1,23 @@
 /* Header (inside body) */
 .givemehead a {
-    color: yellow;
-    font-size: 50px;
+    color: white;
+    font-size: 20px;
     text-decoration:underline wavy white;
     font-style: italic;
 }
 
 h1 {
     text-align: center;
-    color: yellow;
+    color: white;
 }
 
 body {
     font-family: sans-serif;
     background-image: url(https://preview.redd.it/what-if-saul-was-morbidly-obese-what-would-happen-and-how-v0-qo4kpbik7sqa1.jpg?width=500&format=pjpg&auto=webp&s=98b3b96bf858dab2fa77373a7b85d48048a5c5f2);
     background-size:contain;
-    background-color: coral;
+    background-color: #1b1b32;
+    color: #f5f6f7;
+    width: 100%;
+    height: 100vh;
+    margin: 0px;
 }

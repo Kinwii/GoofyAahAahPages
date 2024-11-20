@@ -9,25 +9,23 @@ h1 {
     margin-bottom: 0px;
 }
 
-
-body {
-    font-family: sans-serif;
-    background-image: url(https://images5.alphacoders.com/499/499486.jpg);
-    background-repeat:no-repeat;
-    background-size: auto auto;
-    background-position-x:40%;
-    background-position-y:25%;
-    background-color: black;
-    padding: 10px;
-}
-
 .divlist {
-    width: 80%;
+    width: 90%;
     background-color: burlywood;
     margin-left: left;
     margin-right: auto;
     padding: 20px;
     max-width: 480px;
+}
+
+body {
+    font-family: sans-serif;
+    background-image: url(https://images5.alphacoders.com/499/499486.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    padding: 10px;
 }
 
 p {
@@ -95,3 +93,266 @@ p.plistnolink:active {
 .footerlink {
     text-decoration: none;
 }
+
+.footer {
+    position:fixed;
+    bottom: 0;
+    right: 0;
+    color: #f5f6f7;
+    margin-right: 20px;
+}
+
+/* Breakpoints */
+
+@media only screen and (min-width: 375px) 
+{
+    body {
+        font-family: sans-serif;
+        background-image: url(https://images5.alphacoders.com/499/499486.jpg);
+        background-repeat: no-repeat;
+        background-position: center 10%;
+        background-attachment: fixed;
+        background-size: 1000%;
+        padding: 10px;
+    }
+
+    .divlist {
+        width: 100%;
+        background-color: burlywood;
+        margin-left: -5px;
+        margin-right: auto;
+        padding: 5px;
+        max-width: 400px;
+    }
+
+    h1 {
+        font-size: 175%;
+    }
+
+    p {
+        font-size: 150%;
+    }
+
+    .footer {
+        font-size: 100%;
+        text-shadow: black 1px 1px;
+    }
+
+    .footerpp {
+        font-size: 110%;
+    }
+}
+
+@media only screen and (min-width: 425px) 
+{
+    body {
+        font-family: sans-serif;
+        background-image: url(https://images5.alphacoders.com/499/499486.jpg);
+        background-repeat: no-repeat;
+        background-position: center 15%;
+        background-attachment: fixed;
+        background-size: 1000%;
+        padding: 10px;
+    }
+
+    .divlist {
+        width: 100%;
+        background-color: burlywood;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 5px;
+        max-width: 400px;
+    }
+
+    h1 {
+        font-size: 200%;
+    }
+
+    p {
+        font-size: 175%;
+    }
+
+    .footer {
+        font-size: 100%;
+        text-shadow: black 1px 1px;
+    }
+
+    .footerpp {
+        font-size: 130%;
+    }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (min-width: 600px) 
+{
+    body {
+        font-family: sans-serif;
+        background-image: url(https://images5.alphacoders.com/499/499486.jpg);
+        background-repeat: no-repeat;
+        background-position: center 14%;
+        background-attachment: fixed;
+        background-size: 1000%;
+        padding: 10px;
+    }
+
+    .divlist {
+        width: 100%;
+        background-color: burlywood;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 5px;
+        max-width: 400px;
+    }
+
+    h1 {
+        font-size: 200%;
+    }
+
+    p {
+        font-size: 150%;
+    }
+
+    .footer {
+        font-size: 100%;
+        text-shadow: black 1px 1px;
+    }
+
+    .footerpp {
+        font-size: 123.3%;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) 
+{
+    body {
+        font-family: sans-serif;
+        background-image: url(https://images5.alphacoders.com/499/499486.jpg);
+        background-repeat: no-repeat;
+        background-position: center 0%;
+        background-attachment: fixed;
+        background-size: 350%;
+        padding: 10px;
+    }
+
+    .divlist {
+        width: 100%;
+        background-color: burlywood;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 5px;
+        max-width: 400px;
+    }
+
+    h1 {
+        font-size: 200%;
+    }
+
+    p {
+        font-size: 150%;
+    }
+
+    .footer {
+        font-size: 100%;
+        text-shadow: black 1px 1px;
+    }
+
+    .footerpp {
+        font-size: 135%;
+    }
+}
+
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 1024px) 
+{
+    body {
+        font-family: sans-serif;
+        background-image: url(https://images5.alphacoders.com/499/499486.jpg);
+        background-repeat: no-repeat;
+        background-position: center 0%;
+        background-attachment: fixed;
+        background-size: 275%;
+        padding: 10px;
+    }
+
+    .divlist {
+        width: 100%;
+        background-color: burlywood;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 5px;
+        max-width: 400px;
+    }
+
+    h1 {
+        font-size: 200%;
+    }
+
+    p {
+        font-size: 150%;
+    }
+
+    .footer {
+        font-size: 100%;
+        text-shadow: black 1px 1px;
+    }
+
+    .footerpp {
+        font-size: 135%;
+    }
+}
+
+
+@media only screen and (min-width: 1280px) 
+{
+body {
+    font-family: sans-serif;
+    background-image: url(https://images5.alphacoders.com/499/499486.jpg);
+    background-repeat: no-repeat;
+    background-position: center 10%;
+    background-attachment: fixed;
+    background-size: 200%;
+    padding: 10px;
+}
+}
+
+@media only screen and (min-width: 2560px) 
+{
+body {
+    font-family: sans-serif;
+    background-image: url(https://images5.alphacoders.com/499/499486.jpg);
+    background-repeat: no-repeat;
+    background-position: center 17%;
+    background-attachment: fixed;
+    background-size: 300%;
+    padding: 10px;
+}
+.divlist {
+    width: 100%;
+    background-color: burlywood;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+    max-width: 30%;
+}
+
+h1 {
+    font-size: 400%;
+}
+
+p {
+    font-size: 300%;
+}
+
+.footer {
+    font-size: 200%;
+    text-shadow: black 1px 1px;
+}
+
+.footerpp {
+    font-size: 235%;
+}
+}
+
+
