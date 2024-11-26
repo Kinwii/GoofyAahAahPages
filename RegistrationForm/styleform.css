@@ -6,13 +6,66 @@
     font-style: italic;
 }
 
-h1 {
+a {
+    color: #dfdfe2
+}
+
+h1, p {
     text-align: center;
+    margin: 1em auto;
     color: white;
 }
 
+form {
+    margin: 0 auto;
+    max-width: 500px;
+    min-width: 300px;
+    width: 60vw;
+    background-color: #1b1b32;
+    padding-bottom: 2em;
+}
+
+fieldset {
+    border: none;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    padding-left: 0;
+    padding-right: 0;
+    border-bottom: 3px solid #3b3b4f
+}
+
+fieldset:last-of-type {
+    border-bottom: none;
+}
+
+input, textarea, select {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    min-height: 2em;
+}
+
+input, textarea {
+    background-color: #0a0a23;
+    border: 1px solid #0a0a23;
+    color: white;
+}
+
+.inline {
+    width: unset;
+    margin-right: 0.5em;
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    vertical-align: middle;
+
+}
+
 body {
-    font-family: sans-serif;
+    font-family: Tahoma;
+    font-size: 16px;
     background-image: url(https://preview.redd.it/what-if-saul-was-morbidly-obese-what-would-happen-and-how-v0-qo4kpbik7sqa1.jpg?width=500&format=pjpg&auto=webp&s=98b3b96bf858dab2fa77373a7b85d48048a5c5f2);
     background-size:contain;
     background-color: #1b1b32;
@@ -25,4 +78,19 @@ body {
 label {
     display:block;
     margin: 0.5rem 0;
+}
+
+input[type="submit"] {
+    display: block;
+    width: 60%;
+    margin: 1em auto 1em auto;
+    min-width: 300px;
+    height: 2em;
+    font-size: 1.1rem;
+    background-color: #3b3b4f;
+    border-color: white;
+}
+
+input[type="file"]{
+    padding: 1px 2px;
 }
