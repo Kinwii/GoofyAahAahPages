@@ -94,3 +94,11 @@ input[type="submit"] {
 input[type="file"]{
     padding: 1px 2px;
 }
+
+.footer {
+    position:fixed;
+    bottom: 0;
+    right: 0;
+    color: #f5f6f7;
+    margin-right: 20px;
+}

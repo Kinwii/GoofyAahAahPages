@@ -106,3 +106,11 @@ a:active {
     text-decoration:underline wavy white;
     font-style: italic;
 }
+
+.footer {
+    position:fixed;
+    bottom: 0;
+    right: 0;
+    color: #f5f6f7;
+    margin-right: 20px;
+}
