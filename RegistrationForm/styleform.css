@@ -23,6 +23,8 @@ form {
     width: 60vw;
     background-color: #1b1b32;
     padding-bottom: 2em;
+    padding-right: 1em;
+    padding-left: 1em;
 }
 
 fieldset {
