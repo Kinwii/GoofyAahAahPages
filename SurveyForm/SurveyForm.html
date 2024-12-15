@@ -1,17 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <title>Registration Form</title>
+        <title>Survey Form</title>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="stylesurvey.css">
+        <link rel="stylesheet" href="surveystyles.css">
     </head>
     <body>
         <header>
             <h4><a href="../index.html">Back to Index page</a></h4>
         </header>
-        <footer>
-            <p class="footer">Kinwi Copyright XD</p>
-        </footer>
+      <h1 id="title">Survey Form</h1>
+      <p id="description">Thank you for taking the time to help us improve the platform</p>
+      <form id="survey-form">
+        <label for="name" id="name-label">Name
+          <input id="name" name="name" required type="text" placeholder="Enter your name">
+          </label>
+         <label for="email" id="email-label">Email
+           <input id="email" name="email" required type="email" placeholder="Enter your email">
+           </label>
+           <label for="number" id="number-label">Age
+         <input id="number" name="number" type="number" min="13" max="120" placeholder="Enter Age">
+         </label>
+         <label for="dropdown" id="dropdown-label"> Would you recommend us to one of these friend?
+           <select id="dropdown" name="dropdown" >
+             <option value="1">No</option>
+             <option value="2">Stevo Posel</option>
+             <option value="3">Mark Šečerna santa leda</option>
+             </select>
+           </label>
+             <legend>Do you like ice cream?</legend>
+             <label for="gaga"> <input class="inline" value="nocream" id="gaga" type="radio" name="fieldset-type" checked> I hate that cold aah aah stick </label>
+             <label> <input value="yescream" class="inline" id="gaga" type="radio" name="fieldset-type" checked> MMfghhhjjk ice cweammmm </label>
+<label for="seriecheck1"> What would you like more?
+  <input class="inline" type="checkbox" id="seriecheck1" checked value="stick" name="checkseries">Sticks
+  <input class="inline" type="checkbox" id="seriecheck2" value="rock" name="checkseries">Rocks
+</label>
+<label> Write me something erotic
+  <textarea></textarea>
+  </label>
+  <input type="submit" id="submit" value="Submit">
+      </form>
     </body>
 </html>
