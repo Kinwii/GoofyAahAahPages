@@ -1,3 +1,33 @@
+.index {
+    font-size: 30px;
+    text-align: center;
+    font-family: tahoma;
+    color: white;
+    filter: blur(0.6px);
+    margin-bottom: 1px;
+}
+
+a {
+    background-color: yellow;
+    text-decoration: none;
+}
+
+a:visited {
+    color: black;
+}
+
+.h1name {
+    font-size: 35px;
+    font-family: tahoma;
+    font-style: normal;
+    color: black;
+    background-color: yellow;
+    width: 300px;
+    margin: auto;
+    text-align: center;
+    filter: blur(1px);
+}
+
 .canvas {
     width: 500px;
     height: 600px;

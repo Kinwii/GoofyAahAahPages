@@ -58,19 +58,6 @@ hr {
     font-weight: bold;
 }
 
-.plistnolink {
-    font-weight: bold;
-    font-style: italic;
-}
-
-p.plistnolink:hover {
-    color: red;
-}
-
-p.plistnolink:active {
-    color: rgb(157, 2, 2);
-}
-
 .alistnolink {
     text-decoration: none;
 }
