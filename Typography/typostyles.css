@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    zoom: 1.05;
 }
 
 header h1 {
@@ -88,7 +89,7 @@ html {
 
 .label {
     border: 2px solid black;
-    width: 270px;
+    width: 300px;
     margin: 20px auto;
     padding: 0 7px;
 }

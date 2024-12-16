@@ -1,0 +1,16 @@
+.index {
+    font-size: 25px;
+    text-align: left;
+    font-family: tahoma;
+    margin-bottom: 1px;
+}
+
+a {
+    color: violet;
+    text-decoration: underline dotted;
+    text-transform: initial;
+}
+
+a:visited {
+    color: violet;
+}
