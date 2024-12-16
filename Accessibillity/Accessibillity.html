@@ -9,7 +9,118 @@
     </head>
     <body>
         <header>
-            <p class="index"><a href="../index.html">Return to Index Page</a></p>
+            <a href="../index.html"><img alt="logo" id="logo" src="https://i.pinimg.com/736x/d1/75/15/d1751566e380fbbfad1d2469dd511b4c.jpg"></a>
+            <h1>HTML/CSS Quiz</h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="../index.html">INDEX PAGE</a>
+                    </li>
+                    <li>
+                        <a href="#student-info">INFO</a>
+                    </li>
+                    <li>
+                        <a href="#html-questions">HTML</a>
+                    </li>
+                    <li>
+                        <a href="#css-questions">CSS</a>
+                    </li>
+                </ul>
+            </nav>
          </header>
+         <main>
+            <form method="get" action="https://kinwii.github.io/GoofyAahAahPages/">
+                <section role="region" aria-labelledby="student-info">
+                    <h2 id="student-info">Student Info</h2>
+                    <div class="info">
+                        <label for="name">Name</label>
+                        <input id="name" type="text" name="name">
+                    </div>
+                    <div class="info">
+                        <label for="email">Email</label>
+                        <input id="email" type="email" name="email">
+                    </div>
+                    <div class="info">
+                        <label for="birth">Date of birth</label>
+                        <input id="birth" type="date" name="date">
+                    </div>
+                </section>
+
+                <section role="region" aria-labelledby="html-questions">
+                    <h2 id="html-questions">HTML questions</h2>
+                    <div class="question-block">
+                        <h3><span class="sr-only">Question</span>1.</h3>
+                        <fieldset class="question" name="htmlquest1">
+                            <legend>Bronny novi nadimak je LeSperm.</legend>
+                            <ul class="answers-list">
+                                <li>
+                                    <label for="q1-a1">
+                                        <input type="radio" value="true" name="question1" id="q1-a1">
+                                        True
+                                    </label>
+                                </li>
+                                <li>
+                                    <label for="q1-a2">
+                                        <input type="radio" value="false" name="question1" id="q1-a2">
+                                        False
+                                    </label>
+                                </li>
+                            </ul>
+                        </fieldset>
+                    </div>
+                    <div class="question-block">
+                        <h3><span class="sr-only">Question</span>2.</h3>
+                        <fieldset class="question" name="htmlquest2">
+                            <legend>Spicy Doner kebab is better than mild.</legend>
+                            <ul class="answers-list">
+                                <li>
+                                    <label for="q2-a1">
+                                        <input type="radio" value="true" name="question2" id="q2-a1">
+                                    True
+                                    </label>
+                                </li>
+                                <li>
+                                    <label for="q2-a2">
+                                        <input type="radio" value="false" name="question2" id="q2-a2">
+                                    False
+                                    </label>
+                                </li>
+                            </ul>
+                        </fieldset>
+                    </div>
+                </section>
+
+                <section role="region" aria-labelledby="css-questions">
+                    <h2 id="css-questions">CSS questions</h2>
+                    <div class="formrow">
+                        <div class="question-block">
+                        <label for="selector">Are you Acoustic?</label>
+                        </div>
+                        <div class="answer">
+                        <select required name="selector" id="selector">
+                        <option value="">Select an option</option>
+                        <option value="yes">Yes</option>
+                        <option value="no">No</option>
+                        </select>
+                        </div>
+                        <div class="question-block">
+                        <label for="textar">Do you have any questions:</label>
+                         </div>
+                        <div class="answer">
+                            <textarea id="textar" name="textar" rows="5" cols="44"></textarea>
+                        </div>
+                    </div>
+                </section>
+                <button type="submit">Send</button>
+            </form>
+         </main>
+         <footer>
+            <address>
+                <a href="../index.html">Kinwi</a><br />
+                Bot lane<br />
+                Summoner's rift<br />
+                Runeterra
+            </address>
+         </footer>
     </body>
 </html>
